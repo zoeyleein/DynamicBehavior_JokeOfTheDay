@@ -1,0 +1,63 @@
+/*
+Name: JingYi Li
+*/
+
+/* impot fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+/* style the body */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-35deg, #9c9fff, #ffc1c4);
+    font-family: 'Agbalumo', sans-serif, 'Arial';
+    text-align: center;
+}
+
+/* style the header */
+header {
+    color: azure;
+    font-size: 2em;
+}
+
+
+#jokes {
+    text-align: center;
+    border: 2px solid #1a101000;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.178);
+    color: rgb(0, 0, 0);
+    padding: 50px 20px;
+    margin: 50px 100px;
+}
+
+#jokesText {
+    font-size: 30px;
+    margin: 10px;
+}
+
+#author {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(96, 96, 96);
+    padding: 15px;
+}
+
+#getJokesButton {
+    font-family: 'Agbalumo';
+    font-size: 16px;
+    color: rgb(255, 220, 220);
+    background-color: black;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;   
+}
+
+#getJokesButton:hover {
+    background-color: #39cde8;
+}
